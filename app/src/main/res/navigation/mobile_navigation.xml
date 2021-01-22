@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.gabriel.superapp20.ui.inicio.InicioFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio"/>
+
+    <fragment
+        android:id="@+id/nav_noticias"
+        android:name="com.gabriel.superapp20.ui.noticias.NoticiasFragment"
+        android:label="@string/menu_noticias"
+        tools:layout="@layout/fragment_noticias"/>
+
+    <fragment
+        android:id="@+id/nav_calculadora1"
+        android:name="com.gabriel.superapp20.ui.calculadora1.Calculadora1Fragment"
+        android:label="@string/menu_calculadora1"
+        tools:layout="@layout/fragment_calculadora1"/>
+
+    <fragment
+        android:id="@+id/nav_calculadora2"
+        android:name="com.gabriel.superapp20.ui.calculadora2.Calculadora2Fragment"
+        android:label="@string/menu_calculadora2"
+        tools:layout="@layout/fragment_calculadora2"/>
+
+    <fragment
+        android:id="@+id/nav_recyclerview"
+        android:name="com.gabriel.superapp20.ui.recyclerview.RecyclerViewFragment"
+        android:label="@string/menu_recyclerview"
+        tools:layout="@layout/fragment_recycler_view"/>
+
+    <fragment
+        android:id="@+id/nav_cardview"
+        android:name="com.gabriel.superapp20.ui.cardview.CardViewFragment"
+        android:label="@string/menu_cardview"
+        tools:layout="@layout/fragment_card_view"/>
+
+</navigation>
